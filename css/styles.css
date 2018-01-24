@@ -173,7 +173,7 @@ h1 {
 }
 #comb-and-questions {
     display: grid;
-    grid-template-columns: 45% auto;
+    grid-template-columns: 35% auto;
 }
 #deco-comb {
     left: -6%;
@@ -184,6 +184,13 @@ h1 {
     grid-column: 1 / -1;
 }
 #what-do-you-know {
-    display: grid;
-    grid-template-columns: 60% auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 10% auto;
+	grid-gap: 15px;
+}
+.bee-spec {
+	display: grid;
+	grid-template-rows: auto 20%;
+	text-align: center;
 }

@@ -171,6 +171,9 @@ h1 {
     letter-spacing: .75rem;
     margin: .75rem;
 }
+p {
+	margin: 0;
+}
 #comb-and-questions {
     display: grid;
     grid-template-columns: 35% auto;
@@ -179,18 +182,40 @@ h1 {
     left: -6%;
     position: relative;
 }
+#what-do-you-know {
+	display: grid;
+	width: 100%;
+}
 #what-do-you-know h2 {
+	text-align: center;
+	grid-column: 1/ -1;
+}
+#three-types h2 {
     text-align: center;
     grid-column: 1 / -1;
 }
-#what-do-you-know {
+#three-types {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 10% auto;
 	grid-gap: 15px;
+	width: 100%;
 }
 .bee-spec {
 	display: grid;
-	grid-template-rows: auto 20%;
+	grid-template-rows: 10% auto;
+	grid-row-gap: 15px;
 	text-align: center;
+	font-size: 1.5em;
+}
+#queen-acc {
+	height: 303px;
+	margin: 0 auto;
+}
+#worker-acc {
+	height: 217px;
+	margin: 0 auto;
+}
+#drone-acc {
+	height: 254px;
+	margin: 0 auto;
 }

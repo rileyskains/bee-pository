@@ -18,6 +18,8 @@ Honey bees are perfectly happy to live anywhere with an adequate supply of resou
 
 Meadows, forests, gardens, wetlands, grasslands, and even deserts can all support honey bee life so long as sufficient resources are available.
 
+Honey bees can live in urban areas as well. Sometimes they choose do this naturally, but beekeepers will also encourage them to settle in areas they wouldn't normally by providing them with man-made hives to live in and lots of pollen to feed on.
+
 ## Bees in the Hive
 
 There are three different types of honey bees in a hive. The Queen, Workers, and Drones. Each one is a different size, has a different lifespan, and has a different set of jobs inside and outside of the hive.
@@ -44,7 +46,21 @@ As the queen lays eggs, she is able to decide which eggs will be fertilized and 
 
 ### The Workers
 
-The worker bees are all female. They take care of just about everything in the hive, from food gathering to caring for the developing bees.
+The worker bees are all female. They take care of just about everything in the hive, from food gathering to caring for the developing bees. In fact, their responsibilities change as they get older.
+
+Young worker bees will clean cells for eggs to be laid or for food to be stored. When they are a few days older they will take care of more janitorial duties like removing waste from the hive, keeping the air flowing with their wings, processing nectar brought in by foraging workers (turning it into honey), and feeding the queen and larvae. In their second week, workers are able to produce wax and they work to repair any problems with the comb or add new sections if necessary. They will also continue to feed the queen and other workers.
 
 ### The Drones
 
+Drones are the only male honey bees in the hive. They do not take care of the hive at all and do not go out to gather food. Their primary purpose is to mate with the queen so more bees can be produced.
+
+During the spring and summer, drones will leave the hive and gather in "assembly areas" in the nearby area. Queens will fly through these assembly areas and attract the drones with their pheromones. The drones will attempt to mate with the queen. If they are successful, they die.
+
+## Development
+
+The development and life of honey bees are dependent upon their hive. The hive is made out of wax, which is produced by the bees. In the hive are hexagonal cells, also made out of wax, and this is where eggs are laid and honey is stored.
+
+Bees have four stages to their life cycle and three of those stages happen inside a single cell of the hive.
+
+| Egg | Larva | Pupa | Adult|
+|-----|-------|------|------|

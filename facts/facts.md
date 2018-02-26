@@ -64,3 +64,14 @@ Bees have four stages to their life cycle and three of those stages happen insid
 
 | Egg | Larva | Pupa | Adult|
 |-----|-------|------|------|
+
+## Communication
+
+### Smell
+
+### Sight
+
+### Dancing
+
+
+## Food

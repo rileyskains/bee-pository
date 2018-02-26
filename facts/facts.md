@@ -67,11 +67,37 @@ Bees have four stages to their life cycle and three of those stages happen insid
 
 ## Communication
 
+Honey bees communicate in a number of different ways, using their senses of smell, sight, and sound. Their forms of communication are actually rather complex and still being heavily studied by scientists today.
+
 ### Smell
+
+The majority of the communication in a hive happens through chemical scents, sometimes called pheromones. Each hive has its own unique chemical scent, meaning that no two bee hives will smell exactly the same. All of the bees that belong to a particular hive also have that scent, so they are able to recognize friendly bees and foreign bees.
+
+As all of the bees in a hive interact, they pass their pheromones between one another and gather information about the state of the hive. Their pheromones can indicate if the queen is healthy, if the rest of the bees are healthy, and if things are going well or bad.
+
+A honey bee's sense of smell is also important to determining where the next source of food is. If a worker finds a flower good source of food while foraging, when she comes back to the hive, the other workers will smell her and get the scent profile of the new food source. They will be able to use their incredible sense of smell to find their way to that food and bring back more for the hive.
 
 ### Sight
 
+Even though it is always dark inside of a bee hive, sight is still very important to honey bees for a variety of reasons.
+
+Sight allows them to spot creatures in their surroundings and flowers that could be a good source of pollen or nectar. Additionally, the eyes of bees allow them to see ultraviolet light. This ability allows them to find the position of the sun on days that are cloudy and see markings on flowers that are invisible to humans.
+
 ### Dancing
+
+One of the more fun and unique aspects of bee communication is their dancing signals. Though it isn't dancing like we humans would consider, it is still a unique trait to bees and very uncommon among other insects.
+
+One of these dances is the "round dance". The round dance signals that food has been located within around 300 meters of the hive, but does not communicate the specific direction of the food.
+
+The more complex "waggle dance" indicates that there is food further than 300 meters away from the hive. This dance is interesting because it allows a bee to communicate the precise distance it traveled to get to the food source and shows what direction other bees would need to fly relative to the position of the sun in the sky. Impressive!
 
 
 ## Food
+
+The main sources of food for a honey bee is pollen and nectar, both of which are found in blooming flowers.
+
+As workers find these blooming flowers, they use their special tongues to suck of the nectar and store it in a portion of their digestive tract, which they will regurgitate later. The pollen from the flowers is collected by the bee's body hair and then transferred to a special area on their hind legs called the "pollen baskets".
+
+When workers return to the hive after foraging, they have two things they can do with the nectar they've stored in their bodies. They can either transfer it to younger workers so that they can feed the developing larvae, or they can turn it into honey for long term food storage.
+
+When young workers consume nectar or pollen, they eventually turn it into "royal jelly" or "worker jelly". These types of jelly are given to larvae. If a larvae is given a large amount of royal jelly, it will turn into a queen bee. If it is given a lot of worker jelly, it will turn into a worker bee.

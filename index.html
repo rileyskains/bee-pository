@@ -21,40 +21,170 @@
 <body>
     <header>
         <h1>BEES</h1>
-        <h2>Your friendly, neighborhood honey-makers.</h2>
+        <h2 class="tagline">Your friendly, neighborhood honey-makers.</h2>
     </header>
-    <section id="comb-and-questions">
-        <div id="deco-comb">
-            <img src="assets/honeycombtest.svg">
+        <div id="classification">
+            <h2>Classification</h2>
+            <table>
+                <thead>
+                    <th>Kingdom</th>
+                    <th>Class</th>
+                    <th>Order</th>
+                    <th>Family</th>
+                    <th>Genus</th>
+                    <th>Species</th>
+                </thead>
+                <tbody>
+                    <td>Animalia</td>
+                    <td>Insecta</td>
+                    <td>Hymenoptera</td>
+                    <td>Apidae</td>
+                    <td>Apis</td>
+                    <td><em>Apis mellifera</em></td>
+                </tbody>
+            </table>
         </div>
-        <article id="what-do-you-know">
-            <h2>What do you know about bees?</h2>
-            <div>
-            <p>Of course you know that bees like flowers, some make honey, and some have the potential to sting you, but what do you <em>really</em> know about bees?</p>
-            <p>The world of bees is far more complex than you realize! With complex social structures, a huge impact on the environment, and a history that dates back to the dawn of mankind, bees really make the world go round.</p>
-            <p>To start with, there are three different types of bees in every hive, and each one has quite a bit to do every day.</p>
+        <div id="introduction">
+            <div class="vertically-space">
+                <h3>Bee Background Basics</h3>
+                <p>Though the honey bee is native to Europe, Western Asia, and Africa, they are found all over the world. Honey bees exist on every continent except for Antarctica, because it is too cold with too few resources for them to survive.</p>
+                <p>This species, <em>Apis mellifera</em>, is commonly referred to as 'honey bee', but they are also frequently called 'Western honey bee' and 'European honey bee'.</p>
             </div>
-        </article>
-    </section>
-    <section>
-        <article id="three-types">
-            <h2>Three Types in a Hive</h2>
-            <div id="queen" class="bee-spec">
+            <img id="worldmap" src="assets/worldmap.svg" alt="World map with bee hives placed sporadically across it.">
+        </div>
+        <div id="history">
+            <img class="vertically-space" id="pyramids" src="assets/pyramids.svg" alt="Egyptian Pyramids illustration.">
+            <p class="vertically-space">Honey bees were one of the first species to be domesticated by humans, almost 10,000 years ago! Pottery was used for beekeeping in Africa about 9,000 years ago, and depictions of beekeeping are also present in Egyption art from nearly 4,500 years ago. Some jars of honey were even found in the tomb of Egyptian pharoah, Tutankhamun!</p>
+            <img class="vertically-space" src="assets/hieroglyphics.svg" alt="Depiction of Heiroglyphics showcasing ancient beekeeping practices.">
+        </div>
+        <h2>Where Bees Make Their Hives</h2>
+        <div id="habitat">
+            
+            <img id="hollow-tree-image" src="assets/hollowtree.svg" alt="Hollow tree where bees might live.">
+            <div class="vertically-space">
+                <h3>Habitat</h3>
+                <p>Honey bees are perfectly happy to live anywhere with an adequate supply of resources. They require a large amount of flowering plants, water, and shelter. Honey bees also prefer to create their hives in a space like a hollow tree or other cavity.</p>
+                <p>Meadows, forests, gardens, wetlands, grasslands, and even deserts can all support honey bee life so long as sufficient resources are available.</p>
+            </div>
+        </div>
+        <div id="biomes">
+            <img class="vertically-space" src="assets/grassland.svg" alt="Grassland biome illustration.">
+            <img class="vertically-space" src="assets/swamp.svg" alt="Swamp biome illustration.">
+            <img class="vertically-space" src="assets/forest.svg" alt="Forest biome illustration.">
+        </div>
+        <div id="beekeeping">
+            <img class="beekeeper" src="assets/female-beekeeper.svg" alt="Female beekeeper">
+            <div class="vertically-space">
+                <p>Honey bees can live in urban areas as well. Sometimes they choose do this naturally, but beekeepers will also encourage them to settle in areas they wouldn't normally by providing them with man-made hives to live in and lots of pollen to feed on.</p>
+                <p>Some beekeepers will wear special suits so that the bees won't sting them if they get agitated. But most of the time, this isn't a problem.</p>
+                <p>If you happen to find a beehive in a place where it doesn't belong, like in your shed or garage, don't destroy it! Call a beekeeper so that they can safely move it!</p>
+            </div>
+            <img class="beekeeper" src="assets/male-beekeeper.svg" alt="Male beekeeper">
+        </div>
+        <h2>Three Types of Bees</h2>
+        <div id="bees">
+            <div class="vertically-space">
+                <h3>Bees in the Hive</h3>
+                <p>There are three different types of honey bees in a hive. The Queen, Workers, and Drones. Each one is a different size, has a different lifespan, and has a different set of jobs inside and outside of the hive.</p>
+                <p>NOTE: These bees <em>are</em> proportionately correct in size.</p>
+            </div>
+            <div class="bee-container">
                 <p>Queen</p>
-                <img id="queen-acc" src="assets/queen.svg" alt="Queen Bee">
+                <img id="queen-accurate" src="assets/queen.svg" alt="Queen bee">
             </div>
-            <div id="worker" class="bee-spec">
+            <div class="bee-container">
                 <p>Worker</p>
-                <img id="worker-acc" src="assets/worker.svg" alt="Worker Bee">
+                <img id="worker-accurate" src="assets/worker.svg" alt="Worker bee">
             </div>
-            <div id="drone" class="bee-spec">
+            <div class="bee-container">
                 <p>Drone</p>
-                <img id="drone-acc"src="assets/drone.svg" alt="Drone Bee">
+                <img id="drone-accurate" src="assets/drone.svg" alt="Drone bee">
             </div>
-    </article>
-    </section>
+        </div>
+        <div id="bee-sizing">
+            <!-- This is where the sizes of the bees will go. Showing the size they are in real life. -->
+        </div>
+        <div id="queen-section">
+            <div class="vertically-space">
+            <h3>Queen</h3>
+            <p>There is usually only one queen in a hive. The queen is the only bee that is able to lay eggs, and the survival of the bee colony is dependent on her survival and reproductive ability.</p>
+            <p>The queen will lay eggs almost every day throughout the year, except for exceptionally cold days. Some queens are able to lay about 1,000 eggs every day, making that about 200,000 eggs over the course of her life.</p>
+            <p>As the queen lays eggs, she is able to decide which eggs will be fertilized and which will not. The eggs that are fertilized will develop as females, making them either worker bees or new queens (this is dependent on how they are fed, which we will look at later). Eggs that are not fertilized will be male, making them drones.</p>
+            </div>
+            <img class="big-bee" src="assets/queen.svg" alt="Queen bee">
+        </div>
+        <div id="worker-section">
+            <img class="big-bee" src="assets/worker.svg" alt="Worker bee">
+            <div class="vertically-space">
+            <h3>Worker</h3>
+            <p>The worker bees are all female. They take care of just about everything in the hive, from food gathering to caring for the developing bees. In fact, their responsibilities change as they get older.</p>
+            <p>Young worker bees will clean cells for eggs to be laid or for food to be stored. When they are a few days older they will take care of more janitorial duties like removing waste from the hive, keeping the air flowing with their wings, processing nectar brought in by foraging workers (turning it into honey), and feeding the queen and larvae. In their second week, workers are able to produce wax and they work to repair any problems with the comb or add new sections if necessary. They will also continue to feed the queen and other workers.</p>
+            </div>
+        </div>
+        <div id="drone-section">
+            <div class="vertically-space">
+            <h3>Drone</h3>
+            <p>Drones are the only male honey bees in the hive. They do not take care of the hive at all and do not go out to gather food. Their primary purpose is to mate with the queen so more bees can be produced.</p>
+            <p>During the spring and summer, drones will leave the hive and gather in "assembly areas" in the vicinity. Queens will fly through these assembly areas and attract the drones with their pheromones. The drones will attempt to mate with the queen. If they are successful, they die.</p>
+            </div>
+            <img class="big-bee" src="assets/drone.svg" alt="Drone bee">
+        </div>
+        <div id="development">
+            <div class="vertically-space">
+            <h3>Development</h3>
+            <p>The development and life of honey bees are dependent upon their hive. The hive is made out of wax, which is produced by the bees. In the hive are hexagonal cells, also made out of wax, and this is where eggs are laid and honey is stored.</p>
+            <p>Bees have four stages to their life cycle and three of those stages happen inside a single cell of the hive.</p>
+            </div>
+            <img src="assets/development.svg" alt="Development of bees before they are fully-grown.">
+        </div>
+        <h2>Communication</h2>
+        <div id="communication">
+        <p>Honey bees communicate in a number of different ways, using their senses of smell, sight, and sound. Their forms of communication are actually rather complex and still being heavily studied by scientists today.</p>
+        </div>
+        <div id="smell">
+            <img class="vertically-space" src="assets/scents.svg" alt="Representation of scents leaving a beehive.">
+            <div class="vertically-space">
+            <h3>Smell</h3>
+            <p>The majority of the communication in a hive happens through chemical scents, sometimes called pheromones. Each hive has its own unique chemical scent, meaning that no two bee hives will smell exactly the same. All of the bees that belong to a particular hive also have that scent, so they are able to recognize friendly bees and foreign bees.</p>
+            <p>As all of the bees in a hive interact, they pass their pheromones between one another and gather information about the state of the hive. Their pheromones can indicate if the queen is healthy, if the rest of the bees are healthy, and if things are going well or bad.</p>
+            <p>A honey bee's sense of smell is also important to determining where the next source of food is. If a worker finds a flower good source of food while foraging, when she comes back to the hive, the other workers will smell her and get the scent profile of the new food source. They will be able to use their incredible sense of smell to find their way to that food and bring back more for the hive.</p>
+            </div>
+        </div>
+        <div id="sight">
+            <div class="vertically-space">
+            <h3>Sight</h3>
+            <p>Even though it is always dark inside of a bee hive, sight is still very important to honey bees for a variety of reasons.</p>
+            <p>Sight allows them to spot creatures in their surroundings and flowers that could be a good source of pollen or nectar. Additionally, the eyes of bees allow them to see ultraviolet light. This ability allows them to find the position of the sun on days that are cloudy and see markings on flowers that are invisible to humans.</p>
+            </div>
+            <img src="assets/bee-sight.svg" alt="Depiction of bee sight">
+        </div>
+        <div id="dancing">
+            <img src="assets/beedance.svg" alt="Bee doing the waggle dance">
+            <div class="vertically-space">
+            <h3>Dancing</h3>
+            <p>One of the more fun and unique aspects of bee communication is their dancing signals. Though it isn't dancing like we humans would consider, it is still a unique trait to bees and very uncommon among other insects.</p>
+            <p>One of these dances is the "round dance". The round dance signals that food has been located within around 300 meters of the hive, but does not communicate the specific direction of the food.</p>
+            <p>The more complex "waggle dance" indicates that there is food further than 300 meters away from the hive. This dance is interesting because it allows a bee to communicate the precise distance it traveled to get to the food source and shows what direction other bees would need to fly relative to the position of the sun in the sky. Impressive!</p>
+            </div>
+        </div>
+            
+        <h2>Nutrition</h2>
+        <div id="food">
+            <div class="vertically-space">
+            <h3>Food</h3>
+            <p>The main sources of food for a honey bee is pollen and nectar, both of which are found in blooming flowers.</p>
+            </div>
+            <img src="assets/lots-of-flowers.svg" alt="A large collection of flowers.">
+        </div>
+        <div id="food-explanation">
+            <p>As workers find these blooming flowers, they use their special tongues to suck out the nectar and store it in a portion of their digestive tract, which they will regurgitate later. The pollen from the flowers is collected by the bee's body hair and then transferred to a special area on their hind legs called the "pollen baskets".</p>
+            <p>When workers return to the hive after foraging, they have two things they can do with the nectar they've stored in their bodies. They can either transfer it to younger workers so that they can feed the developing larvae, or they can turn it into honey for long term food storage.</p>
+            <img src="assets/honeycomb.svg" alt="Honey inside honeycomb">
+            <p>When young workers consume nectar or pollen, they eventually turn it into either "royal jelly" or "worker jelly". These types of jelly are given to larvae. If a larvae is given a large amount of royal jelly, it will turn into a queen bee. If it is given a lot of worker jelly, it will turn into a worker bee.</p>
+        </div>
+        <h2>Thanks for learning about bees!</h2>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>

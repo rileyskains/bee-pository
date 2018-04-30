@@ -82,7 +82,7 @@ img {
 	border-style: none
 }
 svg:not(:root) {
-	overflow: hidden
+	overflow: visible;
 }
 button, input, optgroup, select, textarea {
 	font-family: sans-serif;
@@ -188,6 +188,9 @@ p {
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
+#table-wrap {
+	margin: 0 auto;
+}
 table {
 	padding: 0;
 	margin: 0 auto;
@@ -235,7 +238,7 @@ table tr th :last-child, table tr td :last-child {
 	margin-top: 2rem;
 	grid-gap: 1rem;
 }
-img {
+img, svg {
 	max-width: 100%;
 	height: auto;
 }
@@ -285,17 +288,20 @@ img {
 .bee-container p {
 	font-size: 2rem;
 }
-#queen-accurate {
+#queen-accurate svg {
 	height: 50vh;
 	width: auto;
+	overflow: visible;
 }
-#worker-accurate {
+#worker-accurate svg {
 	height: 36vh;
 	width: auto;
+	overflow: visible;
 }
-#drone-accurate {
+#drone-accurate svg {
 	height: 42vh;
 	width: auto;
+	overflow: visible;
 }
 #queen-section, #worker-section, #drone-section {
 	display: grid;
@@ -307,6 +313,7 @@ img {
 	height: 80vh;
 	width: auto;
 	margin: 0 auto;
+	overflow: visible;
 }
 #development {
 	display: grid;
@@ -337,3 +344,185 @@ img {
 	grid-gap: 1rem;
 	margin-top: 2rem;
 }
+
+
+/* FIRST QUEEN SVG PATH STYLES */
+#queen-accurate #left-wing {
+	transform-box: fill-box;
+	transform-origin: 100% 27% 0;
+  }
+  #queen-accurate  #right-wing {
+	transform-box: fill-box;
+	transform-origin: 0% 27% 0;
+  }
+  #queen-accurate #left-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #queen-accurate #right-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #queen-accurate #front-left {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #queen-accurate #front-right {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #queen-accurate #mid-left {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #queen-accurate #mid-right {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #queen-accurate #back-left {
+	transform-box: fill-box;
+	transform-origin: top right;
+  }
+  #queen-accurate #back-right {
+	transform-box: fill-box;
+	transform-origin: top left;
+  }
+
+
+/* FIRST WORKER SVG PATH STYLES */
+#worker-accurate #left-wing {
+	transform-box: fill-box;
+	transform-origin: top;
+  }
+  #worker-accurate  #right-wing {
+	transform-box: fill-box;
+	transform-origin: top;
+  }
+  #worker-accurate #left-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #worker-accurate #right-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #worker-accurate #front-left {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #worker-accurate #front-right {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #worker-accurate #mid-left {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #worker-accurate #mid-right {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #worker-accurate #back-left {
+	transform-box: fill-box;
+	transform-origin: top right;
+  }
+  #worker-accurate #back-right {
+	transform-box: fill-box;
+	transform-origin: top left;
+  }
+
+
+
+
+  /* FIRST DRONE SVG PATH STYLES */
+#drone-accurate #left-wing {
+	transform-box: fill-box;
+	transform-origin: top;
+  }
+  #drone-accurate  #right-wing {
+	transform-box: fill-box;
+	transform-origin: top;
+  }
+  #drone-accurate #left-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #drone-accurate #right-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #drone-accurate #front-left {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #drone-accurate #front-right {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #drone-accurate #mid-left {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  #drone-accurate #mid-right {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+  }
+  #drone-accurate #back-left {
+	transform-box: fill-box;
+	transform-origin: top right;
+  }
+  #drone-accurate #back-right {
+	transform-box: fill-box;
+	transform-origin: top left;
+  }
+
+
+  /* BIG BEE SVG STYLES */
+  .big-bee #left-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom right;
+  }
+  .big-bee #right-antenna {
+	transform-box: fill-box;
+	transform-origin: bottom left;
+	}
+
+	@media only screen and (max-width: 1450px) {
+
+		body {
+			margin: 1rem;
+		}
+		#introduction,
+#history,
+#habitat,
+#biomes,
+#beekeeping,
+#bees,
+#queen-section, #worker-section, #drone-section,
+#development,
+#smell, #sight, #dancing,
+#food,
+#food-explanation {
+	grid-template-columns: 1fr;
+}
+
+#table-wrap {
+	overflow-x: scroll;
+	margin: 0 auto;
+}
+#first-words {
+	grid-row: row-end;
+}
+#worker-section .big-bee {
+	grid-row: row-end;
+}
+#communication {
+	width: 100%;
+}
+#smell svg {
+	grid-row: row-end;
+}
+#dancing img {
+	grid-row: row-end;
+}
+	 }

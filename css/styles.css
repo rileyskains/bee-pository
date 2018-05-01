@@ -344,6 +344,9 @@ img, svg {
 	grid-gap: 1rem;
 	margin-top: 2rem;
 }
+#food-explanation img {
+	height: 65vh;
+}
 
 
 /* FIRST QUEEN SVG PATH STYLES */
